@@ -1,0 +1,4 @@
+START TRANSACTION;
+DELETE FROM auto_personnel WHERE id = 10;
+DELETE FROM auto WHERE personnel_id = 10;
+COMMIT;
